@@ -14,5 +14,5 @@ for i = 1 : size(meas,2)
     hold on
     plot(i,mean(meas(:,i)),'b*','markers',MarkerSize);
 end
-ylabel('Centimetres')
+ylabel('Centimeters')
 set(gca,'fontsize',FontSize)
